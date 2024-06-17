@@ -2,7 +2,7 @@
   "name": "skypro-kanban",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ligzus2.github.io/mykanban",
+  "homepage": "https://ligzus2.github.io/kanban",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
