@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import * as S from './Header.styled';
 import { Link } from 'react-router-dom';
 import { useUser } from '../../hooks/useUser';
+import logo from '../../../public/images/logo.png';
 
 const Header = () => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -17,7 +18,7 @@ const Header = () => {
         <S.Block>
           <div className="header__logo _show _light">
             <a href="" target="_self">
-              <S.HeaderLogo src="/images/logo.png" alt="logo" />
+              <S.HeaderLogo src={logo} alt="logo" />
             </a>
           </div>
           <S.Nav>
