@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as S from './Header.styled';
-import { Link } from 'react-router-dom';
+import logo from '../../../public/images/logo.svg';
 import { useUser } from '../../hooks/useUser';
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
         <S.Block>
           <div className="header__logo _show _light">
             <a href="" target="_self">
-              <S.HeaderLogo src="/images/logo.svg" alt="logo" />
+              <S.HeaderLogo src={logo} alt="logo" />
             </a>
           </div>
           <S.Nav>
